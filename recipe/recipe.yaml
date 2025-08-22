@@ -30,7 +30,7 @@ requirements:
   host:
     - brotli
   run_exports:
-      - ${{ pin_subpackage('libzlib', exact=True) }}
+      - ${{ pin_subpackage('woff2', exact=True) }}
 
 tests:
   - package_contents:
