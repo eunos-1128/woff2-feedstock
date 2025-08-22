@@ -29,6 +29,8 @@ requirements:
     - pkg-config
   host:
     - brotli
+  run_exports:
+      - ${{ pin_subpackage('libzlib', exact=True) }}
 
 tests:
   - package_contents:
