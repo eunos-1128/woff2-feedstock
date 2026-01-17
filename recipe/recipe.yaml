@@ -13,7 +13,7 @@ source:
     - patches/002-install-binaries.patch
 
 build:
-  number: 3
+  number: 4
   skip: win
   script:
     - cmake ${CMAKE_ARGS} -S . -B build -GNinja
